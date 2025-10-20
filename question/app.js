@@ -88,19 +88,19 @@ user.sayHello();
 
 // Q8. 引数
 
-let calc = {
-  add: function(x, y) {
-    console.log(x + y);
-  },
-  subtract: function(x, y) {
-    console.log(x - y);
-  },
-  multiply: function(x, y) {
-    console.log(x * y);
-  },
-  divide: function(x, y) {
-    console.log(x / y);
-  }
+let calc = {};
+
+calc.add = function(x, y) {
+  console.log(x + y);
+}
+calc.subtract = function(x, y) {
+  console.log(x - y);
+}
+calc.multiply = function(x, y) {
+  console.log(x * y);
+}
+calc.divide = function(x, y) {
+  console.log(x / y);
 }
 
 calc.add(3, 4);
