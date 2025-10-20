@@ -53,7 +53,7 @@ console.log(playerList[1].favorites[1]);
 
 // Q5. 四則演算
 
-let totalAge = playerList[0].age + playerList[1].age + playerList[2].age;
+let totalAge = playerList.reduce((sum, player) => sum + player.age, 0);
 let averageAge = totalAge / playerList.length;
 
 console.log(averageAge);
