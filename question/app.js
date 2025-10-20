@@ -115,8 +115,8 @@ function remainder(x, y) {
   return x % y;
 }
 
-let num = remainder(5, 3);
-console.log(5 + " を " + 3 + " で割った余は " + num + " です。");
+let number = remainder(5, 3);
+console.log(5 + " を " + 3 + " で割った余は " + number + " です。");
 
 
 // Q10. スコープ
@@ -138,3 +138,16 @@ console.log(Math.floor(Math.random() * 10));
 setTimeout(function() {
   console.log("Hello World!");
 }, 3000);
+
+
+// Q3. if
+
+let num = 1;
+
+if(num > 0) {
+  console.log("num is greater than 0");
+} else if(num < 0) {
+  console.log("num is less than 0");
+} else if(num === 0) {
+  console.log("num is 0");
+}
