@@ -83,3 +83,26 @@ user.sayHello = function() {
 }
 
 user.sayHello();
+
+
+// Q8. 引数
+
+let calc = {
+  add: function(x, y) {
+    console.log(x + y);
+  },
+  subtract: function(x, y) {
+    console.log(x - y);
+  },
+  multiply: function(x, y) {
+    console.log(x * y);
+  },
+  divide: function(x, y) {
+    console.log(x / y);
+  }
+}
+
+calc.add(3, 4);
+calc.subtract(13, 3);
+calc.multiply(7, 7);
+calc.divide(30, 6);
