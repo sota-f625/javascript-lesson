@@ -106,3 +106,13 @@ calc.add(3, 4);
 calc.subtract(13, 3);
 calc.multiply(7, 7);
 calc.divide(30, 6);
+
+
+// Q9. 返り値
+
+function remainder(x, y) {
+  return x % y;
+}
+
+let num = remainder(5, 3);
+console.log(5 + " を " + 3 + " で割った余は " + num + " です。");
