@@ -72,3 +72,14 @@ let sayWorld = function () {
 }
 
 sayWorld();
+
+
+// Q7. メソッド
+
+user.birthday ='2000-09-27';
+
+user.sayHello = function() {
+  console.log("Hello!");
+}
+
+user.sayHello();
