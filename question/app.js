@@ -13,3 +13,15 @@ let languages = ["JavaScript", "PHP", "Ruby", "Python", "Go"];
 let favorite = `私の好きな言語は${languages[0]}です。次は${languages[3]}を勉強してみたいです。`;
 
 console.log(favorite);
+
+
+// Q3. オブジェクト
+
+let user = {
+  name: 'John',
+  age: 26,
+  bloodType: 'A',
+  favorite: 'card',
+};
+
+console.log(user.age);
